@@ -1,0 +1,208 @@
+.title{
+    image-resolution: 300dpi;
+  
+  }
+  .vehicle{
+    margin-top:30px;
+    margin-bottom:30px;
+    background-color: white;
+  
+  }
+  footer{
+    background-color: #183883;
+    
+  }
+  .footer-button{
+    width: 300px;
+  }
+  .btn-lg{
+    border-color: #183883;
+  }
+  .footer-button:hover{
+    color: white;
+    background-color: #183883;
+    border-color: white;
+  }
+  .vehicle-option{
+    padding-right: 700px;
+  
+  }
+  .vehicle-navbar{
+    padding:0px;
+  }
+  .vehicle-button{
+    color:black;
+      margin-top: 10px;
+  }
+  .row{
+    margin:0px;
+    padding-top:20px;
+  }
+  .scooter-image{
+  height:80px;
+  }
+
+  .scooter{
+    background-color: white;
+  }
+  .moped{
+    background-color: white;
+    
+  }
+  .motorcycle{
+    background-color: white;
+  }
+
+ 
+  h5{
+    float:right;
+  }
+  p{
+    margin: 0px;
+    font-size: 20px;
+  }
+  .nav-link{
+    color:white;
+  }
+  .navbar{
+    padding:0px;
+    
+  }
+  /* .header-bg{
+    background-color: rgba(0, 0, 0,0.5);
+    transition: 0.5s;
+} */
+.tvs{
+  background-color: rgba(0, 0, 0,0.5);
+  /* position:fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10; */
+}
+
+  .navbar-brand{
+    font-weight:bold;
+    font-size: 2.5rem;    
+  }
+  #navbarDropdown{
+    color:white;
+  }
+  .nav-item{
+    padding:0 18px;
+  }
+  .jaimaa{
+    padding-left: 300px;
+  }
+  .nav-link{
+    font-size:1.2rem;
+    font-family:"Montserrat-Black";
+    padding-left: 20px;
+    color: white;
+  }
+
+  .container-fluid{
+    padding:0px;
+  }
+  .container{
+    margin: 0px;
+    color: white;
+    background-color: #183883;
+    padding-left: 100px;
+    width: 1500px;
+    
+  }
+  .carousel-item{
+    text-align:center;
+  }
+  
+  /*         vehicle  8*/
+  /* h1{
+    font-family: "Roboto",sans-serif;
+  font-weight: 700;
+  font-display: swap;
+  font-size: 30px;
+  display: block;
+  margin-left: -100px;
+  } */
+  
+  .title-line{
+    margin:0px;
+    font-size:13px;
+    
+  }
+  .title-div{
+    background-color:#183883;
+    color:white;
+    text-size-adjust:20px;
+    padding-left:30px;
+    padding-top:35px;
+    width: 70%;
+    height:8rem;
+  }
+  .btn{
+    width: auto;
+  }
+  .motorcycle-picture
+  {
+    border: 3px solid black ;
+    margin-left: 40px;
+  }
+  .scooter-picture{
+    border: 2px solid black;
+
+  }
+  .xl100-picture
+  {
+    border: 2px solid black;
+    margin-left: 40px;
+  }
+  
+  @media(max-width:640px){
+    
+    /* .btn{
+      margin:10px;
+      height: 100px;
+      width:120px;
+      text-size-adjust:50px;
+    } */
+    .container
+    {
+      padding-left: 60px;
+      padding-bottom: 30px;
+    }
+    .footer-button
+    {
+      width: 200px;
+    }
+    #navbarDropdown{
+      padding-top:20px;
+      width:90px;
+      height:80px;
+    }
+    .navbar-nav
+    {
+      padding-left: 130px;
+    }
+    
+    .scooter-picture{
+      border: 2px solid black;
+      height: 100%;
+      width: 100%;
+      padding: 0px;
+    }
+    .motorcycle-picture
+    {
+      border: 3px solid black;
+      height: 100%;
+      width: 100%;
+      margin-left: 0px;
+    }
+    .xl100-picture
+    {
+      margin-left: 0px;
+      height: 100%;
+      width: 100%;
+      border: 2px solid black;
+    }
+  }
+ 

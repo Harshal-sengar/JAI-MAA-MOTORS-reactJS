@@ -1,0 +1,29 @@
+.moped
+{
+    background-color: white;
+}
+.card{
+    text-size-adjust:20px;
+    width:20%;
+    height:20%;
+    border:2px solid blue;
+    text-align:right;
+    margin-left:10px;
+}
+.xl100-picture{
+    transition: transform .2s;
+}
+.xl100-picture:hover{
+    transform: scale(1.1);
+}
+@media(max-width:640px)
+{
+    .card
+    {
+      width: 46%;
+      border:2px solid blue;
+      text-align:right;
+      margin-left:10px;
+      margin-bottom: 10px;
+    }
+}

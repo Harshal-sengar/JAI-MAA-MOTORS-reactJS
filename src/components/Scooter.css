@@ -1,0 +1,31 @@
+.scooter
+{
+    background-color: white;
+}
+.card{
+    text-size-adjust:20px;
+    width:20%;
+    height:20%;
+    border:2px solid blue;
+    text-align:right;
+    margin-left:10px;
+}
+.scooter-image{
+    height:80px;
+}
+.scooter-picture{
+    margin-left: 40px;
+    transition: transform .2s;
+}
+.scooter-picture:hover{
+    transform:scale(1.1);
+}
+
+@media(max-width:640px)
+{
+    .scooter-picture
+    {
+        padding: 0px;
+        margin-left: 0px;
+    }
+}

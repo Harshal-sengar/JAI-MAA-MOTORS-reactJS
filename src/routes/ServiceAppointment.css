@@ -1,0 +1,21 @@
+@media screen and (max-width: 620px) {
+    .tvsimage{
+      padding-left: 0px;
+      margin: 0px;
+      margin-bottom: 10px;
+      width: 392px;
+      height: auto;
+    }
+    .form
+    {
+      margin: 0px;
+    }
+    .form h1{
+      width: auto;
+      text-align: left;
+    }
+    .image{
+        margin: 0px;
+        
+    }
+  }

@@ -1,0 +1,18 @@
+.motorcycle{
+    background-color: white;
+}
+.card{
+    text-size-adjust:20px;
+    width:20%;
+    height:20%;
+    border:2px solid blue;
+    text-align:right;
+    margin-left:10px;
+}
+.motorcycle-picture
+{
+    transition: transform .2s;
+}
+.motorcycle-picture:hover{
+    transform: scale(1.12);
+}
