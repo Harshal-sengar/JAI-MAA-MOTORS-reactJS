@@ -2,6 +2,9 @@ body{
     background-color:whitesmoke;
 }
 /* nabar */
+p{
+  font-weight: none;
+}
 
 .nav-link{
     color:white;

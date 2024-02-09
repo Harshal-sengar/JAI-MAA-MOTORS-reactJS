@@ -14,6 +14,7 @@ function CustomerSupportForm()
       name=e.target.name;
       value=e.target.value;
 
+     
       setUser({...user, [name]:value});
     }
     
@@ -23,6 +24,11 @@ function CustomerSupportForm()
       e.preventDefault();
       
       const { name, number, area, subject} = user;
+
+      if (number.length !== 10) {
+        alert('Phone number should be exactly 10 characters');
+        return;
+      }
 
        fetch('/CustomerSupport', {
         method:"POST",
@@ -35,7 +41,7 @@ function CustomerSupportForm()
         
       });
 
-      alert('Thanks For Booking. ');
+      alert('Thanks For Your FeedBack');
       alert("We will contact you sortly");
       navigate('/');
       

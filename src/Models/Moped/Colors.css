@@ -1,0 +1,172 @@
+.brown{
+    background-color: brown;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 42.6%;
+    bottom: 90px;
+    cursor:pointer;
+}
+.blue{
+    background-color: blue;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 50.5%;
+    bottom: 120px;
+    cursor:pointer;
+}
+.black{
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 50.5%;
+    bottom: 120px;
+    cursor:pointer;
+}
+.green{
+    background-color: green;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 42.6%;
+    bottom: 90px;
+}
+
+.ES-black{
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 33%;
+    bottom: 90px;
+    cursor:pointer;
+}
+.ES-blue{
+    background-color: blue;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 40.9%;
+    bottom: 120px;
+    cursor:pointer;
+}
+.ES-green{
+    background-color: green;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 48.8%;
+    bottom: 150px;
+}
+.ES-purple{
+    background-color: purple;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 56.7%;
+    bottom: 180px;
+    cursor:pointer;
+}
+.ES-red{
+    background-color: red;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 64.6%;
+    bottom: 210px;
+    cursor:pointer;
+}
+.Comfort-ES-silk{
+    background-color: salmon;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 34%;
+    bottom: 120px;
+    cursor:pointer;
+}
+.Comfort-ES-blue{
+    background-color: blue;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 41.9%;
+    bottom: 150px;
+    cursor:pointer;
+}
+.Comfort-ES-grey{
+    background-color: grey;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 49.8%;
+    bottom: 180px;
+    cursor:pointer;
+}
+.Comfort-ES-gold{
+    width: 100px;
+    background-color: gold;
+    height: 30px;
+    position: relative;
+    left: 57.7%;
+    bottom: 210px;
+    cursor:pointer;
+}
+.moped-color-name{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+@media(max-width:640px)
+{
+    .brown{
+        left: 15%;
+    }
+    .blue{
+        left: 60%;
+    }
+    .ES-black{
+        left: 5%;
+        width: 50px;
+    }
+    .ES-blue{
+        left: 25%;
+        width: 50px;
+    }
+    .ES-green{
+        left: 45%;
+        width: 50px;
+    }
+    .ES-purple{
+        left: 65%;
+        width: 50px;
+    }
+    .ES-red{
+        left: 85%;
+        width: 50px;
+    }
+    .Comfort-ES-silk{
+        left: 13%;
+        width: 60px;
+    }
+    .Comfort-ES-blue{
+        left: 33%;
+        width: 60px;
+    }
+    .Comfort-ES-grey{
+        left: 53%;
+        width: 60px;
+    }
+    .Comfort-ES-gold{
+        left: 73%;
+        width: 60px;
+    }
+    .green{
+        left: 15%;
+    }
+    .black{
+        left: 60%;
+    }
+}

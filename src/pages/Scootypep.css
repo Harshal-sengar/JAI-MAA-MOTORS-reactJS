@@ -1,0 +1,131 @@
+#image7{
+    position: relative;
+    left: 23%;
+    bottom: 22.5%;
+}
+.pep-color-name{
+    text-align: center;
+    position: relative;
+    line-height: normal;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    bottom: 30%;
+}
+.Aqua-matte{
+    background-color: aqua;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    bottom: -6%;
+    left: 32%;
+    cursor: pointer;
+
+    border: 3px solid white;
+    box-shadow: 0 0 0 3px aqua;
+}
+.Red{
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 38%;
+    cursor: pointer;
+
+    border: 3px solid white;
+    box-shadow: 0 0 0 3px red;
+}
+.pep-Black
+{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 44%;
+    cursor: pointer;
+    bottom: 6%;
+    border: 3px solid white;
+    box-shadow: 0 0 0 3px black;
+}
+.Blue{
+    background-color: blue;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    cursor: pointer;
+    bottom: 12%;
+    border: 3px solid white;
+    box-shadow: 0 0 0 3px blue;
+}
+.Pink{
+    background-color:pink;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 56%;
+    cursor: pointer;
+    bottom: 18%;
+    border: 3px solid white;
+    box-shadow: 0 0 0 3px pink;
+}
+.Brown{
+    background-color: brown;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 62%;
+    cursor: pointer;
+    bottom:24% ;
+    border: 3px solid white;
+    box-shadow: 0 0 0 3px brown;
+}
+@media(max-width:640px)
+{
+    .heading-features{
+        width: 100%;    
+        padding: 0%;
+    }
+    .caption{
+        position: relative;
+        bottom:auto;
+        left: 0%;
+    }
+    .caption h3{
+        font-size: 1.5rem;
+    }
+    .caption p{
+        color: red;
+    }
+    #image7{
+        left: 0%;
+        width: 100%;
+    }
+    .responsive{
+        width: 100%;
+    }
+    .pep-color-name{
+        bottom: 20%;
+    }
+    .Aqua-matte{
+        left: 5%;
+    }
+    .Red{
+        left: 20%;
+    }
+    .pep-Black{
+        left: 35%;
+    }
+    .Brown{
+        left: 80%;
+    }
+    .Pink{
+        left: 65%;
+    }
+}

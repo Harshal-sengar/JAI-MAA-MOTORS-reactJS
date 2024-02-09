@@ -1,0 +1,190 @@
+.carousel4 p{
+    padding-left: 50px;
+}
+.Colors-cityplus{
+    background: url('https://www.tvsmotor.com/tvs-radeon/-/media/Brand-Pages/Radeon/Background-Images/TVS-Radeon-Web-Banner-All-Dimension-Fin_Colours-background-w1366-x-h750.jpg');
+    margin-top: -20px;
+    height: 700px;
+}
+.features-button{
+    position: relative;
+    top: -30px;
+}
+.show-feature{
+    background-color: red;
+    color: white;
+    border-top: 0 none;
+    border-left: 0 none;
+    border-right: 0 none;
+    height: 48px;
+    border-bottom: solid 5px black;
+    line-height: 18px;
+}
+.not-show-feature{
+    color: black;
+    background-color: white;
+    height: 48px;
+}
+.Color{
+    margin-top: -20px;
+}
+#image2{
+    position: relative;
+    left: 290px;
+    top: 0px;
+}
+.cityPlusButton{
+    position: relative;
+    left: 27%;
+    top: 60px;
+    min-width: 74px;
+    margin-bottom: 1px;
+    height: 48px;
+
+    width: 167px;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.Black-red{
+    background: conic-gradient(red 0deg 180deg, black 180deg 360deg);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 45%;
+    margin-top: -20px;
+    bottom: 0px;
+    cursor: pointer;
+}
+.blue-silver{
+    background: conic-gradient(silver 0deg 180deg, blue 180deg 360deg);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 52%;
+    margin-top: -40px;
+    bottom: 0px;
+    cursor: pointer;
+}
+.grey-black{
+    background: conic-gradient(black 0deg 180deg, grey 180deg 360deg);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 58%;
+    margin-top: -40px;
+    bottom: 0px;
+    cursor: pointer;
+}
+.drum-blackBlue{
+    background: conic-gradient(blue 0deg 180deg, black 180deg 360deg);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 38%;
+    margin-top: -20px;
+    bottom: 0px;
+    cursor: pointer;
+}
+.drum-blackRed{
+    background: conic-gradient(red 0deg 180deg, black 180deg 360deg);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 43%;
+    margin-top: -40px;
+    bottom: 0px;
+    cursor: pointer;
+}
+.drum-blueSilver{
+    background: conic-gradient(silver 0deg 180deg, blue 180deg 360deg);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 48%;
+    margin-top: -40px;
+    bottom: 0px;
+    cursor: pointer;
+}
+.drum-greyBlack{
+    background: conic-gradient(black 0deg 180deg, grey 180deg 360deg);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 53%;
+    margin-top: -40px;
+    bottom: 0px;
+    cursor: pointer;
+}
+.drum-redBlack{
+    background: conic-gradient(black 0deg 180deg, red 180deg 360deg);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 58%;
+    margin-top: -40px;
+    bottom: 0px;
+    cursor: pointer;
+}
+.cityplus-color-name{
+    text-align: center;
+    position: relative;
+    line-height: normal;
+    bottom: 90px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+@media(max-width:640px)
+{
+    #image1{
+        width: 100%;
+        left: 0%;
+    }
+    #image2{
+        width: 100%;
+        left: 0%;
+    }
+    .cityPlusButton{
+        left: 7%;
+        top: 50px;
+    }
+    .button2{
+        left: 55%;
+    }
+    .Black-red{
+        left: 20%;
+    }
+    .blue-silver{
+        left: 45%;
+    }
+    .grey-black{
+        left: 70%;
+    }
+    .drum-blackBlue{
+        left:15%;
+    }
+    .drum-blackRed{
+        left: 30%;
+    }
+    .drum-blueSilver{
+        left: 45%;
+    }
+    .drum-greyBlack{
+        left: 60%;
+    }
+    .drum-redBlack{
+        left: 75%;
+    }
+}

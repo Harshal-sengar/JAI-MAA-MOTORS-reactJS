@@ -1,5 +1,6 @@
 import React from "react";
 import "./Moped.css";
+import { Link } from "react-router-dom";
 
 function Moped()
 {
@@ -17,11 +18,12 @@ function Moped()
                         </ul>
                     </div>
                     <div className="col-lg-6">
-                        <img className="xl100-picture" src="https://www.tvsmotor.com/-/media/Feature/Vehicles/vehicles/Homepage/Desktop/TVS_XL_2021.jpg?h=484&w=890&la=en&hash=8B04E750A76CA2F1434BF49D31C7C6E4" alt=""></img>
+                        <Link to="/pages/Moped"><img className="xl100-picture" src="https://www.tvsmotor.com/-/media/Feature/Vehicles/vehicles/Homepage/Desktop/TVS_XL_2021.jpg?h=484&w=890&la=en&hash=8B04E750A76CA2F1434BF49D31C7C6E4" alt=""></img></Link>
                     </div>
                 </div>
             </div>
         </>
     )
+    
 }
 export default Moped;

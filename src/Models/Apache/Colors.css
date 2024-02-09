@@ -1,0 +1,204 @@
+.rtr2004v-colors{
+    background: url('https://www.tvsmotor.com/tvs-apache/-/media/Brand-Pages/Apache/common/webp-images/color-bg-apache-rtr.webp');
+    
+}
+.rtr200-black{
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 48%;
+    bottom: 60px;
+    cursor:pointer;
+}
+.rtr200-blue{
+    background-color: blue;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 28%;
+    bottom: 30px;
+    cursor:pointer;
+}
+.rtr200-white{
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 68%;
+    bottom: 90px;
+    cursor:pointer;
+}
+.rtr180-white{
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 30%;
+    bottom: 90px;
+    cursor:pointer;
+}
+.rtr180-black{
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 58%;
+    bottom: 60px;
+    cursor:pointer;
+}
+.rtr-color-name{
+    color:black;
+    text-align: center;
+    font-weight: 700;
+}
+.pipplayer{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    outline: none;
+    border-radius: 15px;
+}
+.rtr1604v-red{
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    bottom: 160px;
+    position: relative;
+    left: 66%;
+
+    cursor: pointer;
+}
+.rtr1604v-blue{
+    background-color: blue;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    bottom: 120px;
+    position: relative;
+    left: 58%;
+
+    cursor: pointer;
+}
+.rtr1604v-knightblack{
+    background-color:black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    bottom: 80px;
+    position: relative;
+    left: 50%;
+
+    cursor: pointer;
+}
+.rtr1604v-matteblack{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    bottom: 40px;
+    position: relative;
+    left: 42%;
+
+    cursor: pointer;
+}
+.rtr1604v-violet{
+    background-color:blueviolet;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    bottom: 200px;
+    position: relative;
+    left: 34%;
+    bottom: 0%;
+    cursor: pointer;
+}
+#image5{
+    position: relative;
+    left: 23%;
+    bottom: 140px;
+}
+.color-name{
+    text-align: center;
+    position: relative;
+    line-height: normal;
+    bottom: 200px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.rtr160-blue{
+    background-color: blue;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 48%;
+    bottom: 90px;
+    cursor:pointer;
+}
+.rtr160-black
+{
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 38%;
+    bottom: 60px;
+    cursor:pointer;
+}
+.rtr160-white{
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 28%;
+    bottom: 30px;
+    cursor:pointer;
+    color: black;
+}
+.rtr160-red{
+    background-color: red;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 58%;
+    bottom: 120px;
+    cursor:pointer;
+}
+.rtr160-grey{
+    background-color: grey;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 68%;
+    bottom: 150px;
+    cursor:pointer;
+}
+@media(max-width:640px)
+{
+    .rtr200-blue{
+        left: 13%;
+    }
+    .rtr200-black{
+        left: 40%;
+    }
+    .rtr180-white{
+        left: 15%;
+    }
+    .rtr160-white{
+        left: 3%;
+    }
+    .rtr160-black{
+        left: 35%;
+    }
+    .rtr160-red{
+        left: 20%;
+        bottom: 60px;
+    }
+    .rtr160-blue{
+        bottom: 30px;
+        left: 55%;
+    }
+}

@@ -1,0 +1,172 @@
+.ronin-feartures{
+    background: url("https://www.tvsmotor.com/assets/img/brands/ronin/feature-bg.png")  center no-repeat;
+    background-size: cover;
+    margin-top: -36px;
+}
+.ronin-features-heading{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+.ronin-heading{
+    margin-top: 0%;
+    color: white;
+}
+.row{
+    --bs-gutter-x: 0px;
+}
+.carousel_item{
+    padding-bottom: 100px;
+}
+.ronin-colors-buttons{
+    margin-left: 27%;
+    margin-top: 5%;
+}
+
+.ronin-Color{
+    position: relative;
+    left: 0%;
+    top: 60px;
+    padding-bottom: 60px;
+}
+.ronin-varients{
+    margin: 10px 30px ;
+    font-weight: 550;
+    border: 0;
+    background-color: white;
+    font-size: 1.29rem;
+}
+.show-ronin-colors{
+    border-bottom: 5px solid red;
+}
+#ronin-image{
+    position: relative;
+    left: 30%;
+}
+.ronin-greyTD{
+    background-color: grey;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 37%;
+    margin-top: -40px;
+    bottom: 0px;
+    cursor: pointer;
+    
+    border: 3px solid white;
+    box-shadow: 0 0 0 3px grey;
+}
+.ronin-oragneTD{
+    background-color: orange;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 57%;
+    margin-top: -40px;
+    bottom: 0px;
+    cursor: pointer;
+    
+    border: 3px solid white;
+    box-shadow: 0 0 0 3px orange;
+}
+.ronin-blueDS{
+    background-color: blue;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 37%;
+    margin-top: -40px;
+    bottom: 0px;
+    cursor: pointer;
+    
+    border: 3px solid white;
+    box-shadow: 0 0 0 3px blue;
+}
+.ronin-blackDS{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 57%;
+    margin-top: -40px;
+    bottom: 0px;
+    cursor: pointer;
+    
+    border: 3px solid white;
+    box-shadow: 0 0 0 3px black;
+}
+.ronin-redSS{
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 37%;
+    margin-top: -40px;
+    bottom: 0px;
+    cursor: pointer;
+    
+    border: 3px solid white;
+    box-shadow: 0 0 0 3px red;
+}
+.ronin-blackSS{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 57%;
+    margin-top: -40px;
+    bottom: 0px;
+    cursor: pointer;
+    
+    border: 3px solid white;
+    box-shadow: 0 0 0 3px black;
+}
+.ronin-color-name{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 55px;
+    color: white;
+}
+
+.ronin-Color.active{
+    display: block;
+}
+.ronin-Color.inactive{
+    display: none;
+}
+
+
+@media (max-width: 620px) {
+    /* Change heading color to black */
+    .ronin-features-heading {
+      color: black;
+    }
+    .heading-features{
+        color:"black"
+    }
+    #ronin-image{
+        left: 0%;
+        width: 100%;
+    }
+    .ronin-feartures{
+        margin-top: 0%;  
+    }
+    .ronin-color-name{
+        bottom: 40px;
+    }
+    .ronin-features-heading{
+        color: white;
+    }
+}
+  

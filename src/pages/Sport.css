@@ -1,0 +1,152 @@
+.carousel4{
+    position: relative;
+    background: url("https://www.tvsmotor.com/tvs-sport/-/media/Brand-Pages/TVSSport/optimized-images/Features-background-desktop.jpg");
+}
+.features-sport{
+    margin-top: -20px;
+}
+.carousel4 h3{
+    color: white;
+    position: sticky;
+    width: auto;
+}
+.carousel4 p{
+    color: white;
+}
+.sport-colors{
+    margin-top: -20px;
+    height: 700px;
+    background: url("https://www.tvsmotor.com/tvs-sport/-/media/Brand-Pages/TVSSport/Colours-background-desktop.jpg");
+}
+#image3{
+    position: relative;
+    left: 23%;
+    bottom: 28.5%;
+}
+.black-blue{
+    background: conic-gradient(black 0deg 180deg, blue 180deg 360deg);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 31%;
+    top: 40px;
+    cursor: pointer;
+}
+.black-red{
+    background: conic-gradient(black 0deg 180deg, red 180deg 360deg);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 36%;
+    cursor: pointer;
+}
+.sport-purple{
+    background-color: purple;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    bottom: 40px;
+    position: relative;
+    left: 41%;
+    cursor: pointer;
+}
+.sport-blue{
+    background-color: blue;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    bottom: 80px;
+    position: relative;
+    left: 46%;
+    cursor: pointer;
+}
+.all-black{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    bottom: 120px;
+    position: relative;
+    left: 51%;
+    cursor: pointer;
+}
+.all-grey{
+    background-color: grey;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    bottom: 160px;
+    position: relative;
+    left: 56%;
+    cursor: pointer;
+}
+.all-red{
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    bottom: 200px;
+    position: relative;
+    left: 61%;
+    cursor: pointer;
+}
+.responsive{
+    width: 50%;
+}
+.sport-color-name{
+    text-align: center;
+    position: relative;
+    line-height: normal;
+    bottom: 290px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+}
+@media(max-width:640px)
+{
+    .heading-features{
+        width: 100%;    
+        padding: 0%;
+    }
+    .caption{
+        position: relative;
+        bottom:auto;
+        left: 0%;
+    }
+    .caption h3{
+        font-size: 1.5rem;
+    }
+    .caption p{
+        color: red;
+    }
+    .black-blue{
+        left: 5%;
+    }
+    .black-red{
+        left: 19%;
+    }
+    .sport-purple{
+        left: 32%;
+    }
+    .all-red{
+        left: 88%;
+    }
+    .all-grey{
+        left: 74%;
+    }
+    .all-black{
+        left: 60%;
+    }
+    #image3{
+        left: 0%;
+        width: 100%;
+    }
+    .responsive{
+        width: 100%;
+    }
+    .sport-color-name{
+        bottom: 200px;
+    }
+}

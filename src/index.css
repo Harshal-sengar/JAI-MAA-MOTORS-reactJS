@@ -1,5 +1,6 @@
 body{
   background-color:white;
+  
 }
 /* nabar */
 
@@ -154,8 +155,7 @@ border-color: white;
 }
 p{
 margin: 0px;
-font-size: 20px;
-font-weight: 500;
+/* font-weight: 500; */
 }
 footer
 {

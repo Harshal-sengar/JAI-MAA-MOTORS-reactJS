@@ -9,7 +9,7 @@ function BookVehicle()
     return (
         <div>
             <Navbar></Navbar>
-            <BookVehicleForm></BookVehicleForm>
+            <BookVehicleForm src="https://www.tvsmotor.com/assets/img/tvs-credit-new20201001.jpg"></BookVehicleForm>
             <Footer></Footer>
         </div>
     );

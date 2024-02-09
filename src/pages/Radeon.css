@@ -1,0 +1,244 @@
+.carousel3.active{
+    display: block;
+}
+.carousel3.inactive{
+    display: none;
+}
+.caption p{
+    color: black;
+    font-weight: 450;
+}
+.heading-features{
+    padding-left: 96px;
+    font-size: 60px;
+    color: black;
+    font-weight: 700;
+    position: relative;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    margin-top: 20px;
+}
+.features{
+    background-color: red;
+    margin-top: -40px;
+   
+}
+
+.show-features{
+    color: white;
+    border-top: 0 none;
+    border-left: 0 none;
+    border-right: 0 none;
+    height: 58px;
+    border-bottom: solid 5px red;
+    background: url('https://www.tvsmotor.com/assets/img/brands/bg_featursTab.jpg');
+    line-height: 18px;
+}
+.not-show-features{
+    color: black;
+    background-color: white;
+    height: 58px;
+}
+.button1{
+    position: relative;
+    left: 27%;
+    top: 60px;
+    min-width: 74px;
+    margin-bottom: 1px;
+    height: 58px;
+
+    width: 167px;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    cursor: pointer;
+
+}
+.button2{
+    position:relative;
+    left: 63%;
+   
+    min-width: 74px;
+    margin-bottom: 1px;
+    height: 58px;
+
+    width: 167px;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.carousel3{
+    background-color: white;
+    margin-top: 80px;
+}
+
+
+/* Colors */
+.Colors{
+    background: url('https://www.tvsmotor.com/tvs-radeon/-/media/Brand-Pages/Radeon/Background-Images/TVS-Radeon-Web-Banner-All-Dimension-Fin_Colours-background-w1366-x-h750.jpg');
+    margin-top: -20px;
+    height: 750px;
+}
+.Color.active{
+    display: block;
+}
+.Color.inactive{
+    display: none;
+}
+#image1{
+    position: relative;
+    left: 23%;
+    
+}
+#image4{
+    position: relative;
+    top: -80px;
+    left: 23%;
+    bottom: 28.5%;
+}
+.blue-black{
+    background: conic-gradient(black 0deg 180deg, blue 180deg 360deg);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 41%;
+    top: 20px;
+    cursor: pointer;
+
+}
+.red-black{
+    background: conic-gradient(black 0deg 180deg, red 180deg 360deg);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    margin-top: -20px;
+    bottom: 0px;
+    cursor: pointer;
+}
+.Black{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 59%;
+    margin-top: -40px;
+    bottom: 0px;
+    cursor: pointer;
+}
+.base-black{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 47%;
+    top: 0px;
+    bottom: 0px;
+    cursor: pointer;
+}
+.base-blue{
+    background-color: blue;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 40%;
+    top: 40px;
+    bottom: 0px;
+    cursor: pointer;
+}
+.base-purple{
+    background-color: purple;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 54%;
+    top: -40px;
+    bottom: 0px;
+    cursor: pointer;
+}
+.base-grey{
+    background-color: grey;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 61%;
+    top: -80px;
+    bottom: 0px;
+    cursor: pointer;
+}
+.radeon-color-name{
+    text-align: center;
+    position: relative;
+    line-height: normal;
+    bottom: 90px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+.radeon-color-name2{
+    position: relative;
+    line-height: normal;
+    margin-left: 250px;
+    bottom: 250px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+@media(max-width:640px) 
+{
+    .features-radeon{
+        top: 25px;
+    }
+    .button1{
+        left: 7%;
+    }
+    .blue-black{
+        left: 25%;
+    }
+    .red-black{
+        left: 45%;
+    }
+    .Black{
+        left: 65%;
+    }
+   #image4{
+    left: 0%;
+    width: 100%;
+   }
+   .base-blue{
+    left: 15%;
+   }
+   .base-black{
+    left: 35%;
+   }
+   .base-grey{
+    left: 75%;
+   }
+   .base-purple{
+    left: 55%;
+   }
+   .radeon-color-name2{
+    bottom:0px;
+    margin-left: 40%;
+   }
+   .radeon-color-name{
+    bottom: 0%;
+   }
+   .Colors{
+    height: 650px;
+   }
+}

@@ -1,0 +1,9 @@
+.kick-start-xl100{
+    width: 803px;
+}
+@media(max-width:640px)
+{
+    .kick-start-xl100{
+        width: 100%;
+    }
+}

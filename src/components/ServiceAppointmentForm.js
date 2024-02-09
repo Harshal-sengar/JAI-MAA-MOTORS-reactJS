@@ -7,7 +7,7 @@ function ServiceAppointmentForm()
     const [user, setUser]=useState({
         name:"", number:"", address:"", vehicle:"", registrationNumber:"", date:""
       });
-    const [appointmentNumber, setAppointmentNumber]=useState(0);
+    // const [counter, setCounter]=useState(0);
   
       let name, value;
       const handleInputs=(e) =>{
@@ -17,30 +17,33 @@ function ServiceAppointmentForm()
   
         setUser({...user, [name]:value});
       }
-      const PostData  = async(e) =>{
-        setAppointmentNumber(Number(appointmentNumber)+1);
-      
-        e.preventDefault();
-        
-        const { name, number, address, vehicle, registrationNumber, date} = user;
-  
-         fetch('/ServiceAppointment', {
-          method:"POST",
-          headers:{
-            "Content-Type":"application/json"
-          },
-          body:JSON.stringify({
-            name, number, address, vehicle, registrationNumber, date
-          })
-          
-        });
-        
-        alert("your appointment number is "+appointmentNumber);
-        
-        
-        navigate('/');
-        
-      }
+      // Initialize counter from local storage or set to 0 if not found
+const [counter, setCounter] = useState(() => {
+    const savedCounter = localStorage.getItem('counter');
+    return savedCounter ? JSON.parse(savedCounter) : 0;
+   });
+   
+   const PostData = async(e) =>{
+       e.preventDefault();
+       const { name, number, address, vehicle, registrationNumber, date} = user;
+       fetch('/ServiceAppointment', {
+           method:"POST",
+           headers:{
+               "Content-Type":"application/json"
+           },
+           body:JSON.stringify({
+               name, number, address, vehicle, registrationNumber, date, counter
+           })
+       }).then(response => response.json())
+         .then(data => {
+             // Save the new counter value to local storage
+             localStorage.setItem('counter', JSON.stringify(data.counter));
+             setCounter(data.counter); // Update the counter state with the new value
+             alert("Your appointment number is " + data.counter);
+             navigate('/');
+         });
+   }
+    
     
     return(
         <div>
